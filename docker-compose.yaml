@@ -1,0 +1,25 @@
+
+version: "3.0"
+services:
+  service1:
+    image: faawidia/node-app-hello
+    environment:
+      - APP_PORT=10000
+      - APP_AUTHOR=FAJRUL
+    ports:
+      - "10000:10000"
+
+  service2:
+    image: faawidia/node-app-hello
+    environment:
+      - APP_PORT=20000
+      - APP_AUTHOR=AULIA
+    ports:
+      - "20000:20000"
+  service3:
+    image: faawidia/node-app-hello
+    environment:
+      - APP_PORT=30000
+      - APP_AUTHOR=WIDIACYNK
+    ports:
+      - "30000:30000"
