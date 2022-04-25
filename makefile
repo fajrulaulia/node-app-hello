@@ -3,5 +3,5 @@ build-image:
 
 push-image:
 	docker login
-	docker tag faawidia/node-app-hello:latest faawidia/node-app-hello:latest
-	docker push faawidia/node-app-hello:latest
+	docker tag faawidia/node-app-hello:latest faawidia/simple-nodejs-microservice:latest
+	docker push faawidia/simple-nodejs-microservice:latest
